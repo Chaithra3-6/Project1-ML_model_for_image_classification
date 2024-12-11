@@ -25,6 +25,10 @@ Welcome to the Image Classification App! This Streamlit application integrates t
 ---
 
 ## 🚀 **Let's Get Started**  
+### **Pre-requisites**
+- Python 3.7 or later
+- A web browser
+
 ### **How to Run the App**
 - **1. Clone this repository:**  
    ```bash  
@@ -45,6 +49,53 @@ Welcome to the Image Classification App! This Streamlit application integrates t
    streamlit run app.py
    ```
 - **5. Open the app:** The app will open in your default web browser. If not, navigate to http://localhost:8501/
+  
+---
+
+## **File Structure**
+- **cifar10-train.py:** Script for training and saving the CIFAR-10 model.
+- **model111.h5:** Pre-trained CIFAR-10 model file used for making predictions in the app.
+- **my-app.py:** Main Streamlit application file for interactive image classification.
+- **requirements.txt:** List of required Python packages.
+
+---
+
+## **Usage**
+
+### MobileNetV2 (ImageNet)
+
+- `1.` Upload an image (JPG/PNG).
+
+- `2.` View the top 3 predictions with confidence scores.
+
+- `3.` Ideal for recognizing everyday objects, animals, and vehicles.
+
+### CIFAR-10 Model
+
+- `1.` Upload an image (JPG/PNG) resized to 32x32 pixels.
+
+- `2.` Receive a single class prediction with a confidence score.
+
+- `3.` Categories include: {Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship,Truck}
+
+---
+
+## **Contributing**
+ Feel free to fork the repository, open issues, or submit pull requests.
+
+ ---
+
+## **Acknowledgements**
+
+- **Streamlit:** For the amazing web app framework.
+
+- **TensorFlow:** For powering the deep learning models.
+
+- **Pillow**: For image handling.
+
+- **Numpy and Matplotlib:** For numerical and data visualization support.
+
+
    
 
 
