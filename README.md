@@ -25,11 +25,26 @@ Welcome to the Image Classification App! This Streamlit application integrates t
 ---
 
 ## 🚀 **Let's Get Started**  
-- **How to Run the App**
--- **1. Clone this repository:**  
+### **How to Run the App**
+- **1. Clone this repository:**  
    ```bash  
    git clone https://github.com/Chaithra3-6/Project1-ML_model_for_image_classification.git
+   cd Project1-ML_model_for_image_classification
    ```
+- **2. Create and activate a virtual environment:**(optional)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```
+- **3. Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+- **4. Start the Streamlit app:**
+   ```bash
+   streamlit run app.py
+   ```
+- **5. Open the app:** The app will open in your default web browser. If not, navigate to http://localhost:8501/
    
 
 
