@@ -24,11 +24,13 @@ Welcome to the Image Classification App! This Streamlit application integrates t
 
 ---
 
-## 🚀 **Get Started**  
-
-1. Clone this repository:  
+## 🚀 **Let's Get Started**  
+- **How to Run the App**
+-- **1. Clone this repository:**  
    ```bash  
-   git clone https://github.com/your-repo/image-classification-hub.git  
+   git clone https://github.com/Chaithra3-6/Project1-ML_model_for_image_classification.git
+   ```
+   
 
 
 
