@@ -64,19 +64,19 @@ Welcome to the Image Classification App! This Streamlit application integrates t
 
 ### MobileNetV2 (ImageNet)
 
-- `1.` Upload an image (JPG/PNG).
+-  Upload an image (JPG/PNG).
 
-- `2.` View the top 3 predictions with confidence scores.
+-  View the top 3 predictions with confidence scores.
 
-- `3.` Ideal for recognizing everyday objects, animals, and vehicles.
+-  Ideal for recognizing everyday objects, animals, and vehicles.
 
 ### CIFAR-10 Model
 
-- `1.` Upload an image (JPG/PNG) resized to 32x32 pixels.
+-  Upload an image (JPG/PNG) resized to 32x32 pixels.
 
-- `2.` Receive a single class prediction with a confidence score.
+-  Receive a single class prediction with a confidence score.
 
-- `3.` Categories include: {Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship,Truck}
+-  Categories include: {Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship,Truck}
 
 ---
 
