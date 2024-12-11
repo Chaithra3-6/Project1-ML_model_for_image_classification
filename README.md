@@ -4,16 +4,14 @@ Welcome to the Image Classification App! This Streamlit application integrates t
 
 ## 🌟 Highlights of Key Features
 ### 🧠 Dual Model Support
-#### MobileNetV2 (ImageNet): A robust model trained on the ImageNet dataset to identify 1,000+ classes like objects, animals, and vehicles.
-#### Custom CIFAR-10 Classifier: Specialized to categorize images into 10 familiar categories, including airplanes, automobiles, and birds, using the CIFAR-10 dataset.
+  •	MobileNetV2 (ImageNet): A robust model trained on the ImageNet dataset to identify 1,000+ classes like objects, animals, and vehicles.
+  •	Custom CIFAR-10 Classifier: Specialized to categorize images into 10 familiar categories, including airplanes, automobiles, and birds, using the CIFAR-10 dataset.
 ### 🎛️ Intuitive & User-Friendly Interface
-Dynamic Model Switching: Effortlessly toggle between models using the interactive sidebar.
-Real-Time Results: Upload your image and get instant predictions, complete with confidence scores!
-🎓 Learn & Apply
-Deep Learning Insights: Discover the inner workings and capabilities of state-of-the-art neural networks.
-Practical Applications: Explore use cases for image classification across diverse industries.
+  •	Dynamic Model Switching: Effortlessly toggle between models using the interactive sidebar.
+  •	Real-Time Results: Upload your image and get instant predictions, complete with confidence scores! 
+### 🎓 Learn & Apply 
+  •	Deep Learning Insights: Discover the inner workings and capabilities of state-of-the-art neural networks. 
+  •	Practical Applications: Explore use cases for image classification across diverse industries.
 
 
-🛠️ Built With
-MobileNetV2: Pre-trained on ImageNet for high-accuracy image recognition.
-CIFAR-10 Model: A lightweight custom-built network tailored for small-scale datasets.
+
