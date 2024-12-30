@@ -11,6 +11,45 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Inject custom CSS for gradient and button hover effect
+st.markdown(
+    """
+    <style>
+        body {
+            background: linear-gradient(135deg, #F0FFFF, #89CFF0, #87CEEB, #F0FFFF);
+            color: black;
+        }
+        .stButton button {
+            background: linear-gradient(45deg, #87CEEB, #89CFF0 );
+            color: white;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+        }
+        .stButton button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .stSidebar {
+            background: linear-gradient(45deg, #F0FFFF, #89CFF0);
+            color: black;
+        }
+        .stMetric label {
+            color: black;
+        }
+        .stSidebar .stAlert {
+            background-color: #E6E6FA;
+            color: black;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Function for MobileNetV2 ImageNet model
 def mobilenetv2_imagenet():
     st.title("🌐 ImageNet Classification with MobileNetV2")
@@ -67,7 +106,7 @@ def mobilenetv2_imagenet():
 # Function for CIFAR-10 model
 def cifar10_classification():
     st.title("🖼️ CIFAR-10 Image Classification")
-    st.write("Upload an image to classify using my custom CIFAR-10 trained model.")
+    st.write("Upload an image to classify using custom CIFAR-10 trained model.")
 
     uploaded_file = st.file_uploader(
         "Choose an image...",
